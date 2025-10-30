@@ -23,6 +23,76 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.46.0 - 30-10-2025]
+
+### Added
+- [versione] Aggiunta versione 100027
+- [feature] nuovi caso d’uso di cittadinanza previsti dalla circolare ministeriale circolare n. 59/2025 (ID 195)
+		- Dichiarazione di volontà d’acquisto della cittadinanza italiana di minore legge n. art. 4 legge 91/1992 (ordinaria)
+		- Dichiarazione di volontà d’acquisto della cittadinanza italiana di minore art.1-ter legge n.74/2025 (transitoria valida solo fino al 31 maggio 2026)
+		- Esito di accertamento per articolo 4 comma 1-bis 
+		- trascrizione della nascita a seguito di acquisto cittadinanza per beneficio di legge (articolo 4 comma 1-bis)
+- [feature] Trascrizioni di sentenza straniera del registro unione civile [4.3.3.0.0.0] e [4.3.4.0.0.0] <https://github.com/italia/ansc/issues/1900> (ID 205)
+- [feature] Acquisto di cittadinanza per decreto di autorità giudiziaria o amministrativa (ID 198)
+- [feature] Controllo per verifica utenza loggata con utenza utilizzata per firma remota (ID 191)
+- [feature] Gestione atto di assenso al riconoscimento di figlio maggiorenne dopo il riconoscimento (gestione enerazione annotazioni sospese) (ID 186.b)
+- [feature] Aggiornamento del riconoscimento di figlio maggiorenne con assenso prestato davanti ad altro ufficiale <https://github.com/italia/ansc/issues/1945>
+- [decodifiche] Aggiunto valore in decodifica ANSC_9 dec_tipo_allegato 118 - "Provvedimento di riconoscimento della sentenza straniera" (ID 205)
+- [decodifiche] Aggiunto valore in decodifica ANSC_9 dec_tipo_allegato 119 - "Certificato di cittadinanza straniera o Riconoscimento dello status di apolide del minore" (ID 195)
+- [decodifiche] Aggiunto valore in decodifica ANSC_9 dec_tipo_allegato 120 - "Provvedimento di adozione" (ID 195)
+- [decodifiche] Aggiunto valore in decodifica ANSC_9 dec_tipo_allegato 121 - "Documentazione comprovante la qualità di tutore" (ID 195)
+- [decodifiche] Aggiunto valore in decodifica ANSC_9 dec_tipo_allegato 122 - "Documentazione comprovante la condizione di unico genitore del minore" (ID 195)
+- [decodifiche] Aggiunto valore in decodifica ANSC_9 dec_tipo_allegato 123 - "Ricevuta del pagamento" (ID 195)
+
+### Documentazione
+
+- Migliorata documentazione modelEvento.modelSoggetto.idComuneAIRE (per gli intestatari AIRE, le notifiche anagrafiche verranno generate solo se questo campo è stato indicato) <https://github.com/italia/ansc/issues/2137>
+
+### Mapping
+- [casi d'uso] Aggiunto nuovo caso d'uso 5.2.1.5.5 (Citt_050) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 198)
+- [casi d'uso] Aggiunto nuovo caso d'uso 5.1.1.1.1 (Citt_051) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 195)
+- [casi d'uso] Aggiunto nuovo caso d'uso 5.1.1.1.2 (Citt_052) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 195)
+- [casi d'uso] Aggiunto nuovo caso d'uso 5.2.1.5.6 (Citt_053) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 195)
+- [casi d'uso] Aggiunto nuovo caso d'uso 1.3.1.7 (Trascr_038) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 195)
+- [casi d'uso] Aggiunto nuovo caso d'uso 4.4.8.0.0.0 (Sciogl_UnCiv_008) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 195)
+- [decodifiche] Pubblicazione sul repository della tabella ANSC_130, ANSC_133 e ANSC_134 (ID 195)
+- [decodifiche] Pubblicazione sul repository della tabella ANSC_128 (ID 205)
+
+### Fixed
+- [WA]: Trascrizione di nascita resa alla direzione sanitaria con pre riconoscimento <https://github.com/italia/ansc/issues/1803>
+- [WA]: UC 1331  "Trascrizione di nascita: Trascrizione del decreto prefettizio di cambiamento del nome e cognome": controllo trasversale che non consente di inserire valori non ammessi dalla decodifica scelta cognome <https://github.com/italia/ansc/issues/1925>
+- Trascrizione di matrimonio estere da San Marino
+- [WA]: Corretta riconciliazione soggetto per id in merito al controllo sui dati anagrafici non conformi <https://github.com/italia/ansc/issues/1968> <https://github.com/italia/ansc/issues/1954>
+- [SC] R013 rettifiche: controllo sulla sezione eventoModificato relativamente all'id; l'id in eventoModificato è stato reso deprecato
+- [SC]: Anteprima - Scioglimento Unione Civile (cdu 343000) - Corretto errore "Dati in ingresso non corretti" <https://github.com/italia/ansc/issues/2022>
+- Annotazioni rettificative o nota tecnica: rigenerazione notifiche a seguito di rettifica del comune AIRE di iscrizione del soggetto
+- [SC]: Problema coerenza data parziale in anteprima atto <https://github.com/italia/ansc/issues/2049> <https://github.com/italia/ansc/issues/2058>
+- [SC] Corretti estratti e  certificati per assenza stato nascita
+- [SC] [WA] Adozioni estere: resi opzionali gli allegati di sentenza da tribunale
+- [SC]: Corretto problema con estratti con maternità e paternità con genitori con solo cognome <https://github.com/italia/ansc/issues/2076>
+- [WA]: Nota tecnica Corretto errore bloccante in caso di rettifica matrimonio <https://github.com/italia/ansc/issues/2078>
+- [WA]: Corretto testo atto di matrimonio con Rito civile con Delega di altro comune fuori dalla casa comunale incompleto in caso di 4 testimoni <https://github.com/italia/ansc/issues/2056>
+- [SC]: cittadinanza - caso d'uso 51103 Reso opzionale allegato di attestazione di residenza  <https://github.com/italia/ansc/issues/2090>
+- [SC] Corrette etichette metadati in UC modifica condizioni divorzio art.12 D.L. 132/2014 <https://github.com/italia/ansc/issues/2032>
+- [SC]: Trascrizione matrimonio: controllo bloccante per evitare di trascrizvere due volte lo stesso matrimonio nel caso i due coniugi risiedano in comuni diversi <https://github.com/italia/ansc/issues/1928>
+- [SC]: Corretto problema nell'invio della mail per la firma dichiarante <https://github.com/italia/ansc/issues/1993>
+- [SC]: [5.2.9.9.9] Caso d'uso di servizio (trascrizioni di cittadinanza): reso opzionale atto di nascita <https://github.com/italia/ansc/issues/1980>
+- [WA] [SC]: Trascrizione decreto cittadinanza: reso opzionale atto di nascita del soggetto <https://github.com/italia/ansc/issues/2071>
+
+### model_evento.yaml
+- Aggiunta proprietà "estremiDichiarazione" di tipo ModelAttoCollegato in ModelTrascrizione (ID 195)
+- Aggiunta proprietà "eventoCollegato" di tipo ModelAttoCollegato in ModelTrascrizione (ID 195)
+- Aggiunta proprietà "estremiAccertamento" di tipo ModelAttoCollegato in ModelTrascrizione (ID 195)
+- Aggiornata la description per il campo "tipoRichiedente" in ModelTrascrizioneNascita come segue "Id del tipo richiedente (decodifica ANSC_64), per usecase 1334 e 1335 (decodifica ANSC_123), per usecase 1317 (decodifica ANSC_134)"
+- Aggiunta proprietà "tipoDichiarante" di tipo string in ModelDatiEventoCittadinanza (ID 195)
+- Aggiunta proprietà "tipoAccertamentoFiliazione" di tipo string in ModelDatiEventoCittadinanza (ID 195)
+- Aggiunta proprietà "dataAttoDiNascita" di tipo string e format date in ModelDatiEventoCittadinanza (ID 195)
+- Aggiunta proprietà "dataDecorrenzaDichiarazione" di tipo string e format date in ModelDatiEventoCittadinanza (ID 195)
+- Aggiunta proprietà "tipoModificaUnioneCivile" di tipo string in ModelTrascrizioneUnioneCivile (ID 205)
+- Aggiunta proprietà "ricevutaDaPrivatoCittadino" di tipo boolean in ModelTrascrizioneUnioneCivile (ID 205)
+- Aggiunta proprietà "dataPubblicazioneSentenza" di tipo string e format date in ModelTrascrizioneUnioneCivile (ID 205)
+- Aggiunta proprietà "dataDecorrenzaSentenza" di tipo string e format date in ModelTrascrizioneUnioneCivile (ID 205)
+
 ## [1.45.0 - 15-10-2025]
 
 ### Added

@@ -1,3 +1,333 @@
+#Changelog mappatura casi uso 1.46.0  
+
+## Casi uso aggiunti : 5
+* cittadinanza/Citt_050.csv
+* cittadinanza/Citt_051.csv
+* cittadinanza/Citt_053.csv
+* trascrizioni/Trascr_038.csv
+* unioni_civili/Sciogl_UnCiv_008.csv
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 47
+* cittadinanza/Citt_047.csv
+* cittadinanza/Citt_048.csv
+* cittadinanza/Citt_998_1.csv
+* cittadinanza/Citt_998_2.csv
+* cittadinanza/Citt_999.csv
+* matrimoni/Matr_017.csv
+* matrimoni/Matr_018.csv
+* matrimoni/Matr_998_1.csv
+* matrimoni/Matr_998_2.csv
+* matrimoni/Matr_999_1.csv
+* matrimoni/Matr_999_2.csv
+* matrimoni/Matr_Riconc_999.csv
+* matrimoni/Sep_Div_004.csv
+* matrimoni/Sep_Div_999.csv
+* morte/Morte_012.csv
+* morte/Morte_013.csv
+* morte/Morte_998_1.csv
+* morte/Morte_998_2.csv
+* morte/Morte_999.csv
+* nascita/Dic_Nasc_118.csv
+* nascita/Dic_Nasc_119.csv
+* nascita/Dic_Nasc_998_1.csv
+* nascita/Dic_Nasc_998_2.csv
+* nascita/Dic_Nasc_998_4.csv
+* nascita/Dic_Nasc_998_6.csv
+* nascita/Dic_Nasc_998_7.csv
+* nascita/Dic_Nasc_999.csv
+* riconoscimenti/Rico_004.csv
+* riconoscimenti/Rico_005.csv
+* riconoscimenti/Rico_007.csv
+* riconoscimenti/Rico_008.csv
+* riconoscimenti/Rico_011.csv
+* riconoscimenti/Rico_017.csv
+* riconoscimenti/Rico_019.csv
+* riconoscimenti/Rico_999.csv
+* trascrizioni/Trascr_022.csv
+* trascrizioni/Trascr_999.csv
+* trascrizioni/Trascr_Citt_999.csv
+* trascrizioni/Trascr_Matr_999.csv
+* trascrizioni/Trascr_Morte_999.csv
+* trascrizioni/Trascr_UnCiv_999.csv
+* unioni_civili/Sciogl_UnCiv_999.csv
+* unioni_civili/UnCiv_007.csv
+* unioni_civili/UnCiv_008.csv
+* unioni_civili/UnCiv_998_1.csv
+* unioni_civili/UnCiv_998_2.csv
+* unioni_civili/UnCiv_999.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_047.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso cittadinanza/Citt_048.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso cittadinanza/Citt_998_1.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso cittadinanza/Citt_998_2.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso cittadinanza/Citt_999.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso matrimoni/Matr_017.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso matrimoni/Matr_018.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso matrimoni/Matr_998_1.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso matrimoni/Matr_998_2.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso matrimoni/Matr_999_1.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso matrimoni/Matr_999_2.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso matrimoni/Matr_Riconc_999.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_004.csv : 
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.idAnsc' (riga:216)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.idProvinciaRegistrazione' (riga:217)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.siglaProvinciaRegistrazione' (riga:218)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.idComuneRegistrazione' (riga:219)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.nomeComuneRegistrazione' (riga:220)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.idtipocontenuto' (riga:221)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.numeroatto' (riga:222)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.annoAtto' (riga:223)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.dataformazione' (riga:224)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.parte' (riga:225)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.serie' (riga:226)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.volume' (riga:227)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.tipologia' (riga:228)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_999.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso morte/Morte_012.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso morte/Morte_013.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso morte/Morte_998_1.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso morte/Morte_998_2.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso morte/Morte_999.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_118.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_119.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_1.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_2.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_4.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_6.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_7.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_999.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso riconoscimenti/Rico_004.csv : 
+* Aggiunto 'Allegati Copia dell'atto di assenso/dichiarazione del figlio' (riga:3)
+* Rimosso 'Allegati Copia dell'atto di assenso del figlio'
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoReso' (riga:187)
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idAnsc'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.nomeComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idtipocontenuto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.numeroatto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.annoAtto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.dataformazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.parte'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.serie'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.volume'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.tipologia'
+
+### Modifiche per il caso uso riconoscimenti/Rico_005.csv : 
+* Aggiunto 'Allegati Copia dell'atto di assenso/dichiarazione del figlio' (riga:3)
+* Rimosso 'Allegati Copia dell'atto di assenso del figlio'
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoReso' (riga:121)
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idAnsc'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.nomeComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idtipocontenuto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.numeroatto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.annoAtto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.dataformazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.parte'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.serie'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.volume'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.tipologia'
+
+### Modifiche per il caso uso riconoscimenti/Rico_007.csv : 
+* Aggiunto 'Allegati Copia dell'atto di assenso/dichiarazione del figlio' (riga:5)
+* Rimosso 'Allegati Copia dell'atto di assenso del figlio'
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoReso' (riga:187)
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idAnsc'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.nomeComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idtipocontenuto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.numeroatto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.annoAtto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.dataformazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.parte'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.serie'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.volume'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.tipologia'
+
+### Modifiche per il caso uso riconoscimenti/Rico_008.csv : 
+* Aggiunto 'Allegati Copia dell'atto di assenso/dichiarazione del figlio' (riga:4)
+* Rimosso 'Allegati Copia dell'atto di assenso del figlio'
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoReso' (riga:126)
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idAnsc'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.nomeComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idtipocontenuto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.numeroatto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.annoAtto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.dataformazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.parte'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.serie'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.volume'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.tipologia'
+
+### Modifiche per il caso uso riconoscimenti/Rico_011.csv : 
+* Aggiunto 'Allegati Copia dell'atto di assenso/dichiarazione del figlio' (riga:5)
+* Rimosso 'Allegati Copia dell'atto di assenso del figlio'
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoReso' (riga:160)
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idAnsc'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.nomeComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idtipocontenuto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.numeroatto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.annoAtto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.dataformazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.parte'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.serie'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.volume'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.tipologia'
+
+### Modifiche per il caso uso riconoscimenti/Rico_017.csv : 
+* Aggiunto 'Allegati Copia dell'atto di assenso/dichiarazione del figlio' (riga:5)
+* Rimosso 'Allegati Copia dell'atto di assenso del figlio'
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoReso' (riga:160)
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idAnsc'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.nomeComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idtipocontenuto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.numeroatto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.annoAtto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.dataformazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.parte'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.serie'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.volume'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.tipologia'
+
+### Modifiche per il caso uso riconoscimenti/Rico_019.csv : 
+* Aggiunto 'Allegati Copia dell'atto di assenso/dichiarazione del figlio' (riga:3)
+* Rimosso 'Allegati Copia dell'atto di assenso del figlio'
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoReso' (riga:188)
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idAnsc'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.nomeComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idtipocontenuto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.numeroatto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.annoAtto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.dataformazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.parte'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.serie'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.volume'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.tipologia'
+
+### Modifiche per il caso uso riconoscimenti/Rico_999.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso trascrizioni/Trascr_022.csv : 
+* Aggiunto 'evento.riconoscimento.atto.idAnsc' (riga:105)
+* Aggiunto 'evento.riconoscimento.atto.idProvinciaRegistrazione' (riga:106)
+* Aggiunto 'evento.riconoscimento.atto.siglaProvinciaRegistrazione' (riga:107)
+* Aggiunto 'evento.riconoscimento.atto.idComuneRegistrazione' (riga:108)
+* Aggiunto 'evento.riconoscimento.atto.nomeComuneRegistrazione' (riga:109)
+* Aggiunto 'evento.riconoscimento.atto.idtipocontenuto' (riga:110)
+* Aggiunto 'evento.riconoscimento.atto.numeroatto' (riga:111)
+* Aggiunto 'evento.riconoscimento.atto.annoAtto' (riga:112)
+* Aggiunto 'evento.riconoscimento.atto.dataformazione' (riga:113)
+* Aggiunto 'evento.riconoscimento.atto.parte' (riga:114)
+* Aggiunto 'evento.riconoscimento.atto.serie' (riga:115)
+* Aggiunto 'evento.riconoscimento.atto.volume' (riga:116)
+* Aggiunto 'evento.riconoscimento.atto.tipologia' (riga:117)
+
+### Modifiche per il caso uso trascrizioni/Trascr_999.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Citt_999.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_999.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Morte_999.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_999.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_999.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_007.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_008.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_1.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_2.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_999.csv : 
+* Aggiunto 'Allegati Allegato generico' (riga:2)
+
 #Changelog mappatura casi uso 1.44.0  
 
 ## Casi uso aggiunti : 7
