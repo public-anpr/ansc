@@ -173,7 +173,7 @@ components:
           example: '1'
         certificabile:
           type: string
-          description: (decodifica ANSC_29)
+          description: ID del Comune di Iscrizione AIRE (per gli intestatari AIRE, le notifiche anagrafiche verranno generate solo se questo campo è stato indicato e tale comune ha aderito ad ANSC)
           example: '0'
         datiRiconoscimento:
           type: string
