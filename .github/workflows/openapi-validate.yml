@@ -10,17 +10,16 @@ on:
   workflow_dispatch:
 
 jobs:
-  # Single deploy job since we're just deploying
   validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@main
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@main
+        uses: actions/setup-node@v4
         with:
-          node-version: '20'  # Puoi scegliere la versione di Node.js desiderata
+          node-version: '20'
 
       - name: Install Spectral CLI
         run: npm install -g @stoplight/spectral-cli
@@ -28,20 +27,8 @@ jobs:
       - name: Verify Spectral CLI installation
         run: spectral --version
 
-      - name: Write .spectral.yaml configuration
-        run: |
-          cat << 'EOF' > .spectral.yaml
-          extends: spectral:oas
-          rules:
-            operation-description:
-              description: "Operation must have a non-empty description"
-              message: "Missing operation description"
-              severity: error
-              given: "$.paths[*][*]"
-              then:
-                field: description
-                function: truthy
-          EOF
+      - name: Download the latest Spectral Ruleset of the National Interoperability Model
+        run: wget https://github.com/italia/api-oas-checker-rules/releases/latest/download/spectral.yml -O spectral.yml
 
       - name: Spectral lint Specifiche OpenAPI servizi REST
-        run: spectral lint docs/openapi/*.yaml
+        run: spectral lint docs/openapi/*.yaml -r spectral.yml
