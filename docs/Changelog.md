@@ -22,6 +22,18 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.53.2 - 29-07-2026]
+
+### Fixed
+
+- [WA/SC] Gestione atti annullati nella ricerca per soggetto <https://github.com/italia/ansc/issues/3662> 
+- [WA/SC] Anteprima dati di ingresso non corretti<https://github.com/italia/ansc/issues/3651> 
+- [WA/SC] Aggiornamento controlli UC 52156 secondo direttive ANUSCA
+- [WA/SC] Aggiornamento data avento nella annotazione generata da atto UnioneCivile <https://github.com/italia/ansc/issues/3626> 
+- [WA/SC] Gestione formato data per annotazione modificativa generica su atti di matrimonio con intestatari con la solà età
+- [WA/SC] Annotazione per adozione internazionale di minore: trascrizione sentenza con nuove generalità
+- [webapp]: PROBLEMA RILASCIO ESTRATTI DA WEBAPP <https://github.com/italia/ansc/issues/3677>
+
 ## [1.53.1 - 16-07-2026]
 
 ### Changed
