@@ -22,6 +22,32 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.53.3 - 31-08-2026]
+
+### Fixed
+
+- WEBAPP: L'interrogazione per data delle richieste di estratto dei cittadini ora usa la data inserimento richiesta come riferimento
+- WEBAPP: attivata compressione gzip (deflate) per i client che lo richiedono.
+- Rettifiche per articolo 98 non in ordine corretto  [webapp]: Annotazione automatica doppia di matrimonio · Issue #3645 · italia/ansc
+- Errore 504 stampa copia integrale- UC 3.4.7.0.0.0 Separazioni e divorzi: Trascrizione provvedimenti esteri in materia matrimoniale.
+- Soggetto con residenza non nota: modificata la dicitura 
+- Decreto cambio cognome nome con presenza figli: aggiunta nell’annotazione degli estremi dell’atto di nascita
+- [SC] [webapp]: Dati "Evento da annotare" mancanti per "Annotazione modificativa su atto cartaceo" https://github.com/italia/ansc/issues/3162
+- [SC]: Proprietà sessoPrima e sessoDopo assenti in model_evento.yaml (Caso d'uso 4.3.8.1.0.0 / Mapping Trascr_UnCiv_006)  #3728
+- Traduzione data emissione su estratti multilingua
+- [1.4.9.5.0.0.0.0] Errore firma annotazione per adozione
+- Gestire i caratteri diacritici nel campo localitaEsteraNascita (certificato internazionale morte)  [webapp]: Certificato internazionale: questo documento non è certificabile · Issue #3717 · italia/an…
+-  [SC]: Il servizio R005 restituisce due volte lo stesso intestatario https://github.com/italia/ansc/issues/3449
+- data rinvenimento cadavere errata tiket 06532325 https://github.com/italia/ansc/issues/3794
+- Errore annotazione modificativa atti intestatari con solo età
+- Errore dissociazione annotazione adozione
+- Aggiornate decocifive DEC_USE_CASE per risolvere: <https://github.com/italia/ansc/issues/3788>
+
+### model_evento.yaml
+
+- Aggiunta proprietà "sessoPrima" di tipo String in ModelTrascrizioneUnioneCivile.
+- Aggiunta proprietà "sessoDopo" di tipo String in ModelTrascrizioneUnioneCivile. 
+
 ## [1.53.2 - 29-07-2026]
 
 ### Fixed

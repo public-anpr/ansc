@@ -1,3 +1,47 @@
+#Changelog mappatura casi uso 1.53.3  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 5
+* cittadinanza/Citt_998_4.csv
+* matrimoni/Matr_998_4.csv
+* morte/Morte_998_4.csv
+* nascita/Dic_Nasc_998_5.csv
+* unioni_civili/UnCiv_998_4.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_998_4.csv : 
+* Aggiunto 'evento.eventoCollegato.idtipocontenuto' (riga:19)
+* Aggiunto 'evento.eventoCollegato.parte' (riga:23)
+* Aggiunto 'evento.eventoCollegato.serie' (riga:24)
+* Aggiunto 'evento.eventoCollegato.volume' (riga:25)
+
+### Modifiche per il caso uso matrimoni/Matr_998_4.csv : 
+* Aggiunto 'evento.eventoCollegato.idtipocontenuto' (riga:19)
+* Aggiunto 'evento.eventoCollegato.parte' (riga:23)
+* Aggiunto 'evento.eventoCollegato.serie' (riga:24)
+* Aggiunto 'evento.eventoCollegato.volume' (riga:25)
+
+### Modifiche per il caso uso morte/Morte_998_4.csv : 
+* Aggiunto 'evento.eventoCollegato.idtipocontenuto' (riga:19)
+* Aggiunto 'evento.eventoCollegato.parte' (riga:23)
+* Aggiunto 'evento.eventoCollegato.serie' (riga:24)
+* Aggiunto 'evento.eventoCollegato.volume' (riga:25)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_5.csv : 
+* Aggiunto 'evento.eventoCollegato.idtipocontenuto' (riga:19)
+* Aggiunto 'evento.eventoCollegato.parte' (riga:23)
+* Aggiunto 'evento.eventoCollegato.serie' (riga:24)
+* Aggiunto 'evento.eventoCollegato.volume' (riga:25)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_4.csv : 
+* Aggiunto 'evento.eventoCollegato.idtipocontenuto' (riga:19)
+* Aggiunto 'evento.eventoCollegato.parte' (riga:23)
+* Aggiunto 'evento.eventoCollegato.serie' (riga:24)
+* Aggiunto 'evento.eventoCollegato.volume' (riga:25)
+
+
 #Changelog mappatura casi uso 1.53.2  
 
 ## Casi uso aggiunti : 0

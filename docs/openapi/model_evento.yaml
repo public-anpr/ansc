@@ -1099,14 +1099,14 @@ components:
           $ref: '#/components/schemas/ModelAttoCollegatoML'
         luogoEventoUnioneCivile:
           $ref: '#/components/schemas/ModelLuogoML'
-        officianteEventoUnioneCivile:
-          type: string
-          description: Officiante che ha celebrato unione civile
-          example: "Gianni Rossi Bürgermeister"
         datiAssegnoMantenimento:
           type: string
           description: Nel caso esista l'assegno di mantenimento o divorzile
           example: "di concordare l'assegno di mantenimento/divorzile di xxxx €"
+        officianteEventoUnioneCivile:
+          type: string
+          description: Officiante che ha celebrato l'unione civile.
+          example: 'Gianni Rossi Sindaco'
         modificaAccordo:
           type: string
           description: Testo libero per modifica accordo (formula 121-septies.1)
@@ -2488,6 +2488,14 @@ components:
               format: date
               description: Data di decorrenza della sentenza
               example: "2022-04-22"
+            sessoPrima:
+              type: string
+              description: sesso prima della rettifica
+              example: "M"
+            sessoDopo:
+              type: string
+              description: sesso dopo della rettifica
+              example: "M"
     ModelLuogo:
       properties:
         idComune:
